@@ -4,11 +4,12 @@ config <- function(){
   # source('~/Documents/SWIMmeR/code/src/main.R')
   
   #################################
+  base <- "./SWIMmeR/code/"
   project <- "TCGA"
   dataset <- "brca"
   miRNA <- "no"
   
-  path <- paste0("project/",project,"/dataset/",dataset)
+  path <- paste0(base,"project/",project,"/dataset/",dataset)
   #################################
   # input files
   
